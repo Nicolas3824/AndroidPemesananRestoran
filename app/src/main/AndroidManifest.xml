@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skirpsii" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Skripsi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Skirpsii"
+        android:usesCleartextTraffic="true" >
+        <activity android:name=".FormPengembalian" >
+        </activity>
+        <activity android:name=".DaftarMenuReservasi" />
+        <activity android:name=".teshasil" />
+        <activity android:name=".Tes" />
+        <activity android:name=".LoginPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterPage" >
+            <intent-filter>
+                <action android:name=".RegisterPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Preferensi" >
+            <intent-filter>
+                <action android:name=".Preferensi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PageAkunHelp" >
+            <intent-filter>
+                <action android:name=".PageAkunHelp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PageAkunPreferensi" >
+            <intent-filter>
+                <action android:name=".PageAkunPreferensi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Page_Akun_Detail" >
+            <intent-filter>
+                <action android:name=".PageAkunDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PageAkun" >
+            <intent-filter>
+                <action android:name=".PageAkun" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HistoryReservasi" >
+            <intent-filter>
+                <action android:name=".HistoryReservasi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BuatReservasi" >
+            <intent-filter>
+                <action android:name=".BuatReservasi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FavoritMenuPage" >
+            <intent-filter>
+                <action android:name=".FavoritMenuPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FavoritRestoranPage" >
+            <intent-filter>
+                <action android:name=".FavoritRestoranPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReviewMenuPage" >
+            <intent-filter>
+                <action android:name=".ReviewMenuPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReviewRestoranPage" >
+            <intent-filter>
+                <action android:name=".ReviewRestoranPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReviewMenu" >
+            <intent-filter>
+                <action android:name=".ReviewMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailMenu" >
+            <intent-filter>
+                <action android:name=".DetailMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReviewRestoran" >
+            <intent-filter>
+                <action android:name=".ReviewRestoran" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".daftar_menu_restoran" >
+            <intent-filter>
+                <action android:name=".DaftarMenuRestoran" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailRestoran" >
+            <intent-filter>
+                <action android:name=".DetailRestoran" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SearchPage" >
+            <intent-filter>
+                <action android:name=".SearchPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Personalisasi" >
+            <intent-filter>
+                <action android:name=".Personalisasi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name=".MainPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

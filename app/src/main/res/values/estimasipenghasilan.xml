@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="EstimasiPenghasilan">
+        <item>Sekitar 1 Juta ke bawah</item>
+        <item>Sekitar 2 Juta</item>
+        <item>Sekitar 3 Juta</item>
+        <item>Sekitar 4 Juta</item>
+        <item>Sekitar 5-10 Juta</item>
+        <item>Sekitar 10 Juta ke atas</item>
+    </string-array>
+</resources>

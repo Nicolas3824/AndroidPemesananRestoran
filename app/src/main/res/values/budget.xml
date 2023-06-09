@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Budget">
+        <item>di bawah 50.000</item>
+        <item>50.000-200.000</item>
+        <item>200.000-500.000</item>
+        <item>500.000-1.000.000</item>
+        <item>di atas 1.000.000</item>
+    </string-array>
+</resources>

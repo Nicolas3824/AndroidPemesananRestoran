@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Prioritas">
+        <item>Kualitas Makanan</item>
+        <item>Jarak</item>
+        <item>Budget</item>
+        <item>Suasana</item>
+        <item>Harga Worth-it</item>
+        <item>Eksis</item>
+    </string-array>
+</resources>

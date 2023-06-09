@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "717735998206",
+    "project_id": "skripsii-5b3cc",
+    "storage_bucket": "skripsii-5b3cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717735998206:android:d45990b7a3b8a075f66baf",
+        "android_client_info": {
+          "package_name": "com.example.skirpsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717735998206-dadrhss42n083ith69c2mkgarb2gf6qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACD62daa9-fGXKf7jk19JtGBfB2VSbbSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717735998206-dadrhss42n083ith69c2mkgarb2gf6qc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717735998206:android:740e3e4600447952f66baf",
+        "android_client_info": {
+          "package_name": "com.example.skirpsii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717735998206-dadrhss42n083ith69c2mkgarb2gf6qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACD62daa9-fGXKf7jk19JtGBfB2VSbbSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717735998206-dadrhss42n083ith69c2mkgarb2gf6qc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

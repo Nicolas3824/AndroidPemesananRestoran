@@ -1,0 +1,2 @@
+rootProject.name = "Skirpsii"
+include ':app'
